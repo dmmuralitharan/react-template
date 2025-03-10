@@ -25,3 +25,6 @@ build_zips/
 *.njsproj
 *.sln
 *.sw?
+
+# env
+.env*

@@ -6,8 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
+    "prod-build": "vite build && vite preview",
+    "test-build": "npm run build && vite --mode test",
     "preview": "vite preview",
+    "test-preview": "vite --mode test",
+    "lint": "eslint .",
     "format": "prettier --write ."
   },
   "dependencies": {
