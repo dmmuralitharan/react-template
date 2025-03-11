@@ -1,4 +1,3 @@
-// import api from './core/interceptors/axiosInterceptor'
 import AppRoutes from './routes/app-routes'
 
 function App() {
