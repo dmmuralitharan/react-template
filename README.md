@@ -1,12 +1,20 @@
-# React + Vite
+# REUSABLE REACT TEMPLATE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project provides a reusable React template with best practices for development, build management, and version control. Follow the guidelines in the linked documents for smooth project setup and maintenance.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Documentation
 
-## Expanding the ESLint configuration
+- [Project Setup Guidelines](PROJECT_SETUP_GUIDELINES.md) - Steps to set up the project locally.
+- [Commit Guidelines](COMMIT_GUIDELINES.md) - Rules for structuring commit messages.
+- [Build Guidelines](BUILD_GUIDELINES.md) - Instructions for building and packaging the project.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Vite-based React setup for fast development.
+- Pre-configured ESLint and Prettier for code quality.
+- Environment-based API configuration.
+- Automated build and zip packaging for deployment.
+
+Follow the linked guidelines to ensure consistency and best practices across all contributors. Happy coding! 🚀

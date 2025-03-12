@@ -5,7 +5,7 @@ import Register from '../features/auth/pages/register'
 
 export default function AppRoutes() {
 	return (
-		<Router basename="/template">
+		<Router basename="/">
 			<Routes>
 				<Route path="/login" element={<Login />} />
 				<Route path="/register" element={<Register />} />
