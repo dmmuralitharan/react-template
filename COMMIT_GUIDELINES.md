@@ -13,6 +13,8 @@ Before committing any changes, ensure you follow these steps:
     - `build_zips/`
 - If any of these are missing, add them before proceeding.
 
+- Ensure there are no console logs (`console.log`) in production code.
+
 ### 2. Format Code [ Important ]
 
 - Run the following command to format the code before committing:
@@ -30,8 +32,7 @@ Before committing any changes, ensure you follow these steps:
     - Common types: `add`, `update`, `remove`, `fix`, `refactor`, `docs`, `style`, `test`.
 
 ## 4. Push Code to GitHub
+Push code to GitHub using Terminal or GitHub Desktop.
 
-- Avoid committing sensitive files like `.env`.
-- Ensure there are no console logs (`console.log`) in production code.
 
 Following these rules will ensure a clean and maintainable codebase.
