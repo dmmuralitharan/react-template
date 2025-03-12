@@ -68,7 +68,10 @@ console.log('API URL:', apiUrl)
 
 This ensures that the correct environment variables are loaded based on the selected environment.
 
-## Step 6: Run Development Server
+## Step 6: Change Project Name
+change the project name in `package.json` and `package-lock.json`
+
+## Step 7: Run Development Server
 
 To run the project in development mode:
 
