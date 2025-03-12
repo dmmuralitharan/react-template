@@ -50,8 +50,6 @@ This will:
 1. Generate the test environment build as `/dist` folder.
 2. Start a preview server in test mode.
 
-Following these guidelines will ensure a smooth build process and maintain project consistency.
-
 ## Step 3: Create and Manage Build Artifacts
 
 After generating the build, follow these steps to organize and store the build files:

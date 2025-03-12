@@ -3,6 +3,7 @@
 This guide provides step-by-step instructions to set up a React project efficiently. It covers repository creation, dependency installation, environment configuration, and loading environment variables in a Vite-based React application.
 
 ## Step 1: Fork and Create a New Repository
+
 1. Fork this repository on GitHub to your own account.
 
 2. Create a new repository using the React template as the base.
