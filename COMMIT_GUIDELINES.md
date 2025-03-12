@@ -13,14 +13,14 @@ Before committing any changes, ensure you follow these steps:
     - `build_zips/`
 - If any of these are missing, add them before proceeding.
 
-### 1.2 Format Code
+### 2. Format Code [ Important ]
 
 - Run the following command to format the code before committing:
     ```sh
     npm run format
     ```
 
-## 2. Commit Guidelines
+## 3. Commit Guidelines
 
 - Follow proper commit message conventions:
     - Use meaningful and descriptive messages.
@@ -29,7 +29,7 @@ Before committing any changes, ensure you follow these steps:
         - Example: `update: Fix button alignment issue`
     - Common types: `add`, `update`, `remove`, `fix`, `refactor`, `docs`, `style`, `test`.
 
-## 3. Push Code to GitHub
+## 4. Push Code to GitHub
 
 - Avoid committing sensitive files like `.env`.
 - Ensure there are no console logs (`console.log`) in production code.
