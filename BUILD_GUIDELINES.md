@@ -56,6 +56,16 @@ Following these guidelines will ensure a smooth build process and maintain proje
 
 After generating the build, follow these steps to organize and store the build files:
 
+To generate the zip file:
+
+```sh
+npm run save-zip
+```
+
+(or)
+
+Manually create the zip file,
+
 - Create a ZIP Archive.
 - Create the `build_zips` Folder (if not exists) and it in `.gitignore` (if not exists).
 - Move the Build ZIP to `build_zips` Folder.
