@@ -4,7 +4,7 @@
 
 Before committing any changes, ensure you follow these steps:
 
-### 1.1 Check `.gitignore` File
+#### 1.1 Check `.gitignore` File
 
 - Verify that the `.gitignore` file includes the following:
     - `.env`
@@ -13,7 +13,7 @@ Before committing any changes, ensure you follow these steps:
     - `build_zips/`
 - If any of these are missing, add them before proceeding.
 
-- Ensure there are no console logs (`console.log`) in production code.
+#### 1.2 Ensure there are no console logs (`console.log`) in production code.
 
 ### 2. Format Code [ Important ]
 
