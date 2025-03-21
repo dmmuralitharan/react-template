@@ -15,23 +15,17 @@ Before committing any changes, ensure you follow these steps:
 
 #### 1.2 Ensure there are no console logs (`console.log`) in production code.
 
-### 2. Format Code [ Important ]
-
-- Run the following command to format the code before committing:
-    ```sh
-    npm run format
-    ```
-
-## 3. Commit Guidelines
+## 2. Commit Guidelines
 
 - Follow proper commit message conventions:
     - Use meaningful and descriptive messages.
     - Follow the format: `<type>: <message>`
-        - Example: `add: Implement JWT authentication`
-        - Example: `update: Fix button alignment issue`
-    - Common types: `add`, `update`, `remove`, `fix`, `refactor`, `docs`, `style`, `test`.
+        - Example: `docs: update commit guidelines` ✅
+        - Example: `feat(auth): add login feature` ✅
+        - Example: `invalid message` ❌
+    - Common types: `feat`, `fix`, `chore`, `docs`, `test`, `style`, `refactor`, `perf`, `build`, `ci`, `revert`.
 
-## 4. Push Code to GitHub
+## 3. Push Code to GitHub
 
 Push code to GitHub using Terminal or GitHub Desktop.
 
