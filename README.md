@@ -8,6 +8,8 @@ This project provides a reusable React template with best practices for developm
 
 - Vite-based React setup for fast development.
 - Pre-configured ESLint and Prettier for code quality.
+- Husky pre-commit hooks to enforce commit message guidelines.
+- Tailwind CSS v3 for modern styling.
 - Environment-based API configuration.
 - Automated build and zip packaging for deployment.
 
