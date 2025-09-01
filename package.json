@@ -6,13 +6,13 @@
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
-		"prod-build": "vite build && vite preview",
-		"test-build": "npm run build && vite --mode test",
+		"prod:build": "vite build && vite preview",
+		"test:build": "npm run build && vite --mode test",
 		"preview": "vite preview",
-		"test-preview": "vite --mode test",
+		"test:preview": "vite --mode test",
 		"lint": "eslint .",
 		"format": "prettier --write .",
-		"save-zip": "node -e \"const fs=require('fs'),{execSync}=require('child_process'),name=require('./package.json').name,now=new Date(),date=now.toISOString().slice(0,10),time=`${now.getHours().toString().padStart(2,'0')}-${now.getMinutes().toString().padStart(2,'0')}-${now.getSeconds().toString().padStart(2,'0')}`,filename=`${name}-${date}-${time}.zip`,outputDir='build_zips';fs.existsSync(outputDir)||fs.mkdirSync(outputDir,{recursive:true});execSync(`tar -a -cf ${outputDir}/${filename} dist`);console.log(`Created: ${outputDir}/${filename}`);\""
+		"save:zip": "node -e \"const fs=require('fs'),{execSync}=require('child_process'),name=require('./package.json').name,now=new Date(),date=now.toISOString().slice(0,10),time=`${now.getHours().toString().padStart(2,'0')}-${now.getMinutes().toString().padStart(2,'0')}-${now.getSeconds().toString().padStart(2,'0')}`,filename=`${name}-${date}-${time}.zip`,outputDir='build_zips';fs.existsSync(outputDir)||fs.mkdirSync(outputDir,{recursive:true});execSync(`tar -a -cf ${outputDir}/${filename} dist`);console.log(`Created: ${outputDir}/${filename}`);\""
 	},
 	"dependencies": {
 		"@tailwindcss/vite": "^4.1.12",
